@@ -6,8 +6,6 @@ public class setMismatch {
 
 	public static int[] mismatch(int[] arr,int n)
 	{
-	//	List<Integer> res=new ArrayList<Integer>();
-
 		int i=0;
 		while(i<n)
 		{
