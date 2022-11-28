@@ -8,7 +8,6 @@ public class uniqueElement {
 		for(int i:arr)
 		{
 			element^=i;
-			System.out.println(element);
 		}
 		return element;
 		
