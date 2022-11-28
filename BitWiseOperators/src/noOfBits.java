@@ -4,15 +4,12 @@ public class noOfBits {
 
 	public static int bits(int n)
 	{
-		int k=-10;
 		int count=0;
-		System.out.println(Integer.toBinaryString(k));
-		System.out.println(Integer.toBinaryString(n));
-
 		while(n>0)
 		{
 			n=n&(n-1);
-			count++;			
+			count++;
+			
 		}
 		
 		return count;
